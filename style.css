@@ -94,7 +94,7 @@ a.selected {
 .gallery {
     display: block;
     padding: 56px 20px 56px 23px; 
-    background-image: url("/images/grid.svg");
+    background-image: url("./grid.svg");
     border-bottom: 3px solid black;
 }
 .photo-arrow{
