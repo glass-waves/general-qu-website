@@ -3,7 +3,6 @@ $('.filter-list a').on('click', function(){
     console.log(filter)
     $('.all').hide()
     $('.open').hide()
-    
     $(filter).show()
     $('.arrow').show()
     $('.filter-list a').removeClass('selected ')
