@@ -18,7 +18,7 @@ body {
 }
 .outer-grid-container {
     display:grid;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 70% 30%;
 }
 .column-2 {
     padding-right: 20px;
@@ -37,6 +37,7 @@ iframe {
 }
 header {
     display: flex ;
+    background-color: white;
     justify-content: space-between;
     padding: 15px 15px 15px 30px;
     align-items: center;
@@ -48,16 +49,22 @@ header img {
 }
 header p {
     font-size: 18px;
+    font-weight:500;
 }
 .circle {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: rgba(30, 0, 255, 1);
-    transition: background-color 3s;
+    width:100%;
+    text-align:center;
 }
-.circle:hover {
-    background-color: rgba(255, 133, 238, 1);
+.circle img {
+    max-width: 400px;
+}
+.pronoun {
+    text-align:right;
+
+}
+.pronoun p {
+    font-size: 14px;
+    color: black;
 }
 .link-list h1 {
     font-size: 48px;
@@ -74,7 +81,7 @@ header p {
 .link-list a {
     text-decoration: none;
     color: black;
-    transition: all .5s ease;
+    transition: all .5s ease-in-out;
 }
 .link-list a:hover {
     color: rgba(30, 0, 255, 1);
@@ -86,8 +93,7 @@ a.selected {
     color: rgba(30, 0, 255, 1);
     font-weight: 500;
   /*   transition: all .5s ease; */
-}
-  
+}  
 .group {
     margin-bottom: 20px;
 }
@@ -116,7 +122,8 @@ a.selected {
 }
 .cycle-slideshow img{
     width: 100%;
-    height: auto ;   
+    height: auto ; 
+    /* max-height: 680px;   */
 }
 /* .wrapper {
 
@@ -157,7 +164,7 @@ a.selected {
     font-weight: 500;
 }
 .arrow img {
-    max-width: 100px;
+    max-width: 75px;
 
 }
 .prev img {
@@ -173,4 +180,59 @@ a.selected {
 }
 .gallery .open {
     display: block;
+}
+.about {
+    width:100%;
+    background-color: #fff005;
+    /* background-image: url("images/about/aboutBackground.jpeg"); */
+    /* background-size: cover; */
+    display:grid;
+    grid-template-columns: 20% 1fr 1fr;
+    padding: 15px 15px 20px 15px;
+    font-size: 12px;
+    font-weight:500;
+    line-height:1.3;
+    color: #1B0AFD;
+    
+}
+.about a:visited{
+    color: blue;
+}
+.left{
+    width:100%;
+    text-align:center;
+}
+.left img {
+    max-width: 100%;
+    max-height: 200px;
+}
+.center {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    position:relative;
+}
+.center a {
+    font-size: 16px;
+    font-weight: 500;
+}
+.about h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.centerBottom p {
+    position: absolute;
+    bottom:0;
+}
+.right a {
+    display: block;
+    margin-top: 20px;
+
+}
+.contact img {
+    max-width:20px;
+}
+
+ul p {
+    margin-bottom:5px;
+    font-weight:500;
 }

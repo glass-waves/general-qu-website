@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;570&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;570&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;570&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>General Qu</title>
 </head>
 
@@ -13,11 +14,18 @@
     <div class="outer-grid-container">
         <div class="column-1">
             <header>
-                <img src="./images/qu-1.png" />
-                <div class="circle"></div>
+                <img src="images/qu-1.png" />
+                <div class="circle">
+                    <img src= "images/general.png">
+                </div>
                 <div class="pronoun">
-                    <p>qu {she/her}</p>
-                    <p>sound + vision + design</p>
+                    <p>
+                        Art Director<br>
+                        Photographer<br>
+                        Content Creator<br>
+                        Set Designer and Stylist
+                    </p>
+                    
                 </div>
             </header>  
             <section class="gallery">
@@ -30,7 +38,7 @@
 
                     <div class="set-styling">
                         <div
-                        class="cycle-slideshow dsg all open"
+                        class="cycle-slideshow dsg all open "
                         data-cycle-fx="scrollHorz"
                         data-cycle-timeout="0"
                         data-cycle-prev=".prev"
@@ -52,8 +60,17 @@
                             <img src="images/dsg/dsg12.jpg" />
                             <img src="images/dsg/dsg13.jpg" />
                         </div> 
-                        <div class="seek all">
-                            <video src="https://vimeo.com/427971723" width="480" height="270"></video>
+                        <div 
+                        class="cycle-slideshow seek all"
+                        data-cycle-fx="scrollHorz"
+                        data-cycle-timeout="0"
+                        data-cycle-prev=".prev"
+                        data-cycle-next=".next"
+                        data-cycle-center-horz=true
+                        data-cycle-center-vert=true
+                        data-cycle-center-horz=true
+                        data-cycle-center-vert=true>
+                            <img src="images/vidStills/seek.jpeg">
                         </div>  
                         <div
                         class="cycle-slideshow stay-over all"
@@ -155,17 +172,15 @@
                         </div>  
                         <div
                         class="cycle-slideshow portland-design-group all"
+                        data-cycle-center-horz=true
+                        data-cycle-center-vert=true
                         data-cycle-fx="scrollHorz"
                         data-cycle-timeout="0"
                         data-cycle-prev=".prev"
                         data-cycle-next=".next"
-                        data-cycle-auto-height= 2
-                        data-cycle-center-horz=true
-                        data-cycle-center-vert=true
                         >
                             <img src="images/portland-design-group/pdg1.jpg" />
                             <img src="images/portland-design-group/pdg2.jpg" />
-                            <img src="images/portland-design-group/pdg3.jpg" />
                             <img src="images/portland-design-group/pdg4.jpg" />
 
                         </div>
@@ -362,8 +377,6 @@
                         data-cycle-next=".next"
                         data-cycle-center-horz=true
                         data-cycle-center-vert=true
-                        data-cycle-center-horz=true
-                        data-cycle-center-vert=true
                         >
                             <img src="images/bb/bb1.jpg" />
                             <img src="images/bb/bb2.jpg" />
@@ -380,6 +393,7 @@
                         data-cycle-next=".next"
                         data-cycle-center-horz=true
                         data-cycle-center-vert=true
+                        data-cycle-auto-height=2
                         >
                             <img src="images/tender/tender1.jpg" />
                             <img src="images/tender/tender2.jpg" />
@@ -387,7 +401,14 @@
                             <img src="images/tender/tender4.jpg" />
                             <img src="images/tender/tender5.jpg" />
                         </div>  
-                        <div class="lemons all">
+                        <div   
+                        class="cycle-slideshow lemons all no-arrow"
+                        data-cycle-fx="scrollHorz"
+                        data-cycle-timeout="0"
+                        data-cycle-prev=".prev"
+                        data-cycle-next=".next"
+                        data-cycle-center-horz=true
+                        data-cycle-center-vert=true>
                             <img src="/images/lemons/lemons1.jpg" />
                         </div>
                     </div>
@@ -398,14 +419,34 @@
                         <div class="seek all">
         
                         </div>      
-                        <div class="sea-foam all">
-        
+                        <div 
+                        class="cycle-slideshow sea-foam all"
+                        data-cycle-fx="scrollHorz"
+                        data-cycle-timeout="0"
+                        data-cycle-prev=".prev"
+                        data-cycle-next=".next"
+                        data-cycle-center-horz=true
+                        data-cycle-center-vert=true>
+                            <img src="images/vidStills/seaFoam.jpeg">
                         </div>      
-                        <div class="eric-nyfler all">
-        
+                        <div 
+                        class="cycle-slideshow eric-nyfler all"
+                        data-cycle-fx="scrollHorz"
+                        data-cycle-timeout="0"
+                        data-cycle-prev=".prev"
+                        data-cycle-next=".next"
+                        data-cycle-center-horz=true
+                        data-cycle-center-vert=true>
+                            <img src="images/vidStills/nyfler.jpeg">
                         </div>      
-                        <div class="alison all">
-        
+                        <div class="cycle-slideshow alison all"
+                        data-cycle-fx="scrollHorz"
+                        data-cycle-timeout="0"
+                        data-cycle-prev=".prev"
+                        data-cycle-next=".next"
+                        data-cycle-center-horz=true
+                        data-cycle-center-vert=true>
+                            <img src="images/vidStills/alison.jpeg">
                         </div>
                     </div>
     <!--end of art direction section -->
@@ -439,10 +480,24 @@
                             <img src="images/jam/jam3.jpg" />
                             <img src="images/jam/jam4.jpg" />
                         </div>      
-                        <div class="park all">
+                        <div 
+                        class="cycle-slideshow park all"
+                        data-cycle-fx="scrollHorz"
+                        data-cycle-timeout="0"
+                        data-cycle-prev=".prev"
+                        data-cycle-next=".next"
+                        data-cycle-center-horz=true
+                        data-cycle-center-vert=true>
                             <img src="images/park/park1.jpg">
                         </div>      
-                        <div class="dan all">
+                        <div 
+                        class="cycle-slideshow dan all"
+                        data-cycle-fx="scrollHorz"
+                        data-cycle-timeout="0"
+                        data-cycle-prev=".prev"
+                        data-cycle-next=".next"
+                        data-cycle-center-horz=true
+                        data-cycle-center-vert=true>
                             <img src="images/dan/dan1.jpg">
                         </div>     
                     </div>
@@ -464,6 +519,7 @@
                         <li>talent @saashajacobson @kara_nicole19 @logan.jackson @missterraserene</li>
                     </ul>
                     <ul class="seek all">
+                        <p>WATCH FULL VIDEO <a href="https://www.youtube.com/watch?v=v_gjRP4zTWo">HERE</a></p>
                         <li>producers @hoozens @expertfriends @willcuddy @zacharyfeiner</li>
                         <li>director @andrewschwab</li>
                         <li>talent @travisabels</li>
@@ -542,6 +598,10 @@
                         <li>talent @weeedband</li>
                         <li>photographer @general_qu</li>
                     </ul>
+                    <ul class="buckley all">
+                        <li>for @buckleynow uQ deck</li>
+                        <li>photographer @general_qu</li>
+                    </ul>
                     <ul class="bb all">
                         <li>photographer @general_qu</li>
                         <li>talent @bratboyband</li>
@@ -556,6 +616,7 @@
                         <li>lemon thrower @jefftuyay</li>
                     </ul>
                     <ul class="sea-foam all">
+                        <p>WATCH FULL VIDEO <a href="https://vimeo.com/336836268">HERE</a></p>
                         <li>written x recorded by Wet Dream LLC. @wet_dream_committee</li>
                         <li>premiered @booooooom @flauntmagazine</li>
                         <li>engineer x producer @glasswavs</li>
@@ -570,11 +631,13 @@
                         <li>location @halfcourtstudio</li>
                     </ul>
                     <ul class="eric-nyfler all">
+                        <p>WATCH FULL VIDEO <a href="https://vimeo.com/325534293">HERE</a></p>
                         <li>video director x editor @travbarron @unlimitedtimeonly</li>
                         <li>artist @ericnyffeler</li>
                         <li>art director @general_qu</li>
                     </ul>
                     <ul class="alison all">
+                        <p>WATCH FULL VIDEO <a href="https://vimeo.com/336189898">HERE</a></p>
                         <li>video director x editor @travbarron @unlimitedtimeonly</li>
                         <li>artist @alisonjeancole</li>
                         <li>art director @general_qu</li>
@@ -606,7 +669,43 @@
             </section>
   
             <section class="about">
-                <h2>contact:</h2>
+                <div class="left">
+                    <img src="images/about/aboutPortrait.jpeg">
+                </div>
+                <div class="center">
+                    <div class="centerTop">
+                        <div class = contact>
+                            <h3>contact:</h3>
+                            Email: <a href="mailto:general.kue@gmail.com">general.kue@gmail.com</a><br>
+                            Instagram: <a href="https://www.instagram.com/general_qu/?hl=en" target="_blank">@general_qu</a>
+                            
+
+                        </div>
+                    </div>
+                    <div class= "centerBottom">
+                        <p>
+                            She/Her<br>
+                            Capricorn<br>
+                            Columbia College, BFA in Photography - 2011<br>
+                            Heritage School of Interior Design - 2017<br>
+                            City of Origin - Chicago, IL<br>
+                            Curent City - Portland, OR
+                        </p>
+                        
+                    </div>
+                    
+
+                </div>
+                <div class="right">
+                    <h3>Work published in:</h3>
+                    <a href="https://tv.booooooom.com/2019/06/24/wet-dream-see-foam-run/" target ="_blank">BOOOOOOOM TV - 'Wet Dream x 'Sea Foam Run' Video</a>
+                    <a href="https://www.sightunseen.com/2019/11/week-of-october-28-2019/" target ="_blank">SIGHT UNSEEN - New Age Design</a>
+                    <a href="https://flaunt.com/content/wet-dream-see-foam-run" target ="_blank">FLAUNT MAGAZINE - Wet Dream x'Sea Foam Run' Video</a>
+                    <a href="https://varioussmallflames.co.uk/2019/10/31/wet-dream-worried/" target ="_blank">Various Small Flames UK - Wet Dream x 'Worried' Video </a>
+                    <a href="https://imposemagazine.com/bytes/new-music/wet-dream-future-nostalgic#:~:text=The%20band%20shares%2C%20%E2%80%9CFuture%20Nostalgic,has%20come%20to%20define%20it.
+                    " target ="_blank">IMPOSE MAGAZINE - Wet Dream x Future Nostalgic</a>
+                    
+                </div>
             </section>
         </div>
 
@@ -618,18 +717,18 @@
                     <h2>{set_styling+interior_design}</h2>
                     <ul class="filter-list">
                         <li><a href="#" data-filter=".dsg">nike x dsg shoot</a></li>
-                        <li><a href="#" data-filer=".seek">seek xr, evo of shopping</a></li>
+                        <li><a href="#" data-filter=".seek" class="noarrow" >seek xr, evo of shopping</a></li>
                         <li><a href="#" data-filter=".stay-over">stay over</a></li>
                         <li><a href="#" data-filter=".new-age">new age design</a></li>
                         <li><a href="#" data-filter=".iced-tea">adidas x arizona iced tea</a></li>
                         <li><a href="#" data-filter=".pot-plant">pot plant</a></li>
                         <li><a href="#" data-filter=".food-pyramid">food pyramid</a></li>
                         <li><a href="#" data-filter=".supershoot">adidas nba supershoot lounge</a></li>
-                        <li><a href="#" data-filter=".valentines">holocene valentines installation</a></li>
+                        <li><a href="#" data-filter=".valentines" class="noarrow" >holocene valentines installation</a></li>
                         <li><a href="#" data-filter=".portland-design-group">portland design group</a></li>
                     </ul>
                 </div>
-  
+
                 <div class="group">
                     <h2>{photography}</h2>
                     <ul class="filter-list">
@@ -644,17 +743,17 @@
                         <li><a href="#" data-filter=".buckley">buckley x uq</a></li>
                         <li><a href="#" data-filter=".bb">bb</a></li>
                         <li><a href="#" data-filter=".tender">tenderfruit</a></li>
-                        <li><a href="#" data-filter=".lemons">lemons</a></li>
+                        <li><a href="#" data-filter=".lemons" class="noarrow" >lemons</a></li>
                     </ul>
                 </div>
   
                 <div class="group">
                     <h2>{art_direction}</h2>
                     <ul class="filter-list">
-                        <li><a href="#" data-filter=".seek">seek xr, evo of shopping</a></li>
-                        <li><a href="#" data-filter=".sea-foam">sea foam run x wet dream</a></li>
-                        <li><a href="#" data-filter=".eric-nyfler">big cartel x eric nyfler</a></li>
-                        <li><a href="#" data-filter=".alison">big cartel x alison jean cole</a></li>
+                        <li><a href="#" data-filter=".seek" class="noarrow" >seek xr, evo of shopping</a></li>
+                        <li><a href="#" data-filter=".sea-foam" class="noarrow" >sea foam run x wet dream</a></li>
+                        <li><a href="#" data-filter=".eric-nyfler" class="noarrow" >big cartel x eric nyfler</a></li>
+                        <li><a href="#" data-filter=".alison" class="noarrow" >big cartel x alison jean cole</a></li>
                     </ul>
                 </div>
   
@@ -663,14 +762,14 @@
                     <ul class="filter-list">
                         <li><a href="#" data-filter=".reva">reva devito</a></li>
                         <li><a href="#" data-filter=".jam">jam</a></li>
-                        <li><a href="#" data-filter=".park">park the van x she shreds</a></li>
-                        <li><a href="#" data-filter=".dan">dan dan</a></li>
+                        <li><a href="#" data-filter=".park" class="noarrow" >park the van x she shreds</a></li>
+                        <li><a href="#" data-filter=".dan" class="noarrow" >dan dan</a></li>
                     </ul>
                 </div>
   
                 <div class="group">
                     <h2>{music}</h2>
-                    <ul>
+                    <ul class= "filter-list">
                         <li><a href="#" data-filter=".wet-dream">wet dream</a></li>
                     </ul>
                 </div>
