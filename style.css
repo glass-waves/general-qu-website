@@ -39,7 +39,7 @@ header {
     display: flex ;
     background-color: white;
     justify-content: space-between;
-    padding: 15px 15px 15px 30px;
+    padding: 15px 15px 15px 25px;
     align-items: center;
     border-bottom: 3px solid black;
 }
@@ -52,12 +52,16 @@ header p {
     font-weight:500;
 }
 .circle {
-    width:100%;
-    text-align:center;
+width: 75px;
+height: 75px;
+border-radius: 50%;
+background-color: #101887;
+
 }
-.circle img {
+/* .circle img {
     max-width: 400px;
-}
+    margin-top:10px;
+} */
 .pronoun {
     text-align:right;
 
@@ -187,7 +191,7 @@ a.selected {
     /* background-image: url("images/about/aboutBackground.jpeg"); */
     /* background-size: cover; */
     display:grid;
-    grid-template-columns: 20% 1fr 1fr;
+    grid-template-columns: 17% 1fr 1fr;
     padding: 15px 15px 20px 15px;
     font-size: 12px;
     font-weight:500;
@@ -200,16 +204,19 @@ a.selected {
 }
 .left{
     width:100%;
-    text-align:center;
+    text-align:left;
 }
 .left img {
     max-width: 100%;
     max-height: 200px;
 }
 .center {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    position:relative;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr; */
+    /* position:relative; */
+}
+.centerTop {
+    margin-bottom:45px;
 }
 .center a {
     font-size: 16px;
@@ -219,10 +226,7 @@ a.selected {
     font-size: 18px;
     font-weight: 500;
 }
-.centerBottom p {
-    position: absolute;
-    bottom:0;
-}
+
 .right a {
     display: block;
     margin-top: 20px;
@@ -235,4 +239,40 @@ a.selected {
 ul p {
     margin-bottom:5px;
     font-weight:500;
+}
+
+@media (max-width: 1150px) {
+    .about {
+        grid-template-columns: 20% 35% 1fr;
+    }
+    .right a{
+        margin-top: 15px;
+    }
+    .centerTop {
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 1080px) {
+    header img {
+        max-width: 60px;
+    }
+    .circle img {
+        max-width: 300px;
+    }
+    .caption {
+        max-width: 65%;
+    }
+    .link-list h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 990px) {
+    .about {
+        grid-template-columns: 40% 60%;
+    }
+    .left {
+        display: none;
+    }
 }
