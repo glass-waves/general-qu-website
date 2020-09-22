@@ -15,18 +15,26 @@ $('.filter-list a').on('click', function(){
     return false
     
 })
-//vanilla javascript
-// const all = document.getElementById('.all');
+var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+if (viewportWidth < 850) {
+    $('.group h2').on('click', function(){
+        console.log('its small');
+    })
+}
 
-// document.querySelectorAll('.cycle-slideshow').forEach(item => {
-//     item.addEventListener('click', event => {
-//     console.log(item);
-//     const selected = document.getElementById(item);
-//     all.style.display = 'none';
-//     selected.style.display = 'block';
+    $('.group h2').on('click', function(){
+        var filterGroup = $(this).data('filter');
+        console.log(filterGroup);
+        $('.filter-list').hide();
+        // if(filterGroup === ".about-page") {
+        //     $('.all').hide();
+        //     console.log('yup its the about page');
+        // }
+        $(filterGroup).show();       
+    })
 
-
-
-
-//     })
-//   })
+    $('.menu-toggle').on('click', function(){
+        console.log('burger clicked!')
+        $('.column-2').toggleClass('slide');
+        // $('.qu').toggle();
+    })
