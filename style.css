@@ -498,6 +498,9 @@ ul p {
      h1 {
         font-size: 24px;
     }
+    .gallery {
+        padding-bottom: 50%;
+    }
 }
 @media(max-width:370px){
     .link-list h1 {
