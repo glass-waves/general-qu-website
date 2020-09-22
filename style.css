@@ -343,6 +343,7 @@ ul p {
     }
     .gallery {
         border-bottom: none;
+        padding-bottom:0;
     }
     .link-list li {
         margin-bottom: 4px;
