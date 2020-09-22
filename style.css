@@ -451,6 +451,9 @@ ul p {
     .link-list li {
         font-size: 14px;
     }
+    .gallery {
+        padding-bottom: 30%;
+    }
 }
 @media (max-width: 480px){
     .qu{
