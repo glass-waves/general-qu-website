@@ -15,23 +15,34 @@ $('.filter-list a').on('click', function(){
     return false
     
 })
-var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
-if (viewportWidth < 850) {
-    $('.group h2').on('click', function(){
-        console.log('its small');
-    })
-}
 
+  
     $('.group h2').on('click', function(){
-        var filterGroup = $(this).data('filter');
-        console.log(filterGroup);
-        $('.filter-list').hide();
-        // if(filterGroup === ".about-page") {
-        //     $('.all').hide();
-        //     console.log('yup its the about page');
-        // }
-        $(filterGroup).show();       
+        if(screen.width < 850){
+            console.log('its small');
+            var filterGroup = $(this).data('filter');
+            console.log(filterGroup);
+            $('.filter-list').hide();
+            $(filterGroup).show(); 
+        }else{
+            console.log('its big');
+            $('.filter-list').show();
+        }      
     })
+    function myFunction(x) {
+        if (x.matches) { // If media query matches
+            $('.filter-list').hide();
+        } else {
+            $('.filter-list').show();
+        }
+      }
+      
+      var x = window.matchMedia("(max-width: 850px)")
+      myFunction(x) // Call listener function at run time
+      x.addListener(myFunction) // Attach listener function on state changes
+
+
+
 
     $('.menu-toggle').on('click', function(){
         console.log('burger clicked!')

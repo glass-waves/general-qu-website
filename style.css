@@ -276,6 +276,9 @@ ul p {
     margin: 6px 0;
     
 }
+.long-title{
+    display:none;
+}
 
 @media (max-width: 1150px) {
     .about {
@@ -314,9 +317,15 @@ ul p {
     .centerTop {
         margin-bottom: 10px;
     }
+    .center a{
+        font-size:14px;
+    }
 }
 
 @media (max-width: 850px) {
+    .filter-list {
+        display: none;
+    }
     h1 {
         font-size: 32px;
     }
@@ -378,7 +387,7 @@ ul p {
         z-index:3;
     }
     .link-list h1 {
-        margin-top: 70px;
+        margin-top: 50px;
         margin-bottom: 40px;
     }
     .qu {
@@ -420,6 +429,9 @@ ul p {
     .qu {
         right:34%;
     }
+    .caption {
+        max-width:80%;
+    }
 }
 @media (max-width:590px) {
     .qu {
@@ -432,11 +444,11 @@ ul p {
         font-size:16px;
     }
     .link-list h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .link-list li {
-        line-height:1.4;
+        font-size: 14px;
     }
 }
 @media (max-width: 480px){
@@ -446,12 +458,60 @@ ul p {
     .link-list h1 {
         margin-top: 60px;
     }
+    .long-title{
+        display:inline;
+    }
 
-
+    .qu{
+        right:31%;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    header p {
+        font-size: 14px;
+    }
+    .caption li {
+        font-size: 14px;
+    }
+    .caption p {
+        font-size: 14px;
+    }
+    .link-list h2{
+        max-width: 175px;
+    }
+    .link-list h1 {
+        margin-top:48px;
+    }
+    .link-list li {
+        line-height:1.2;
+    }
+}
+@media(max-width: 400px){
+    .qu{
+        right:30%;
+    }
+     h1 {
+        font-size: 24px;
+    }
+}
+@media(max-width:370px){
+    .link-list h1 {
+        font-size:20px;
+    }
+}
+@media(max-width:340px){
+    h1{
+        font-size:20px;
+    }
+    header p{
+        font-size:12px;
+    }
+    .link-list li {
+        font-size:12px;
+    }
 }
 
-
-}
 @media(min-width:850px) {
     .filter-list {
         display: block;
