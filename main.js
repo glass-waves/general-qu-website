@@ -1,24 +1,30 @@
 $('.filter-list a').on('click', function(){
-    var filter = $(this).data('filter');
-    console.log(filter);
+    const filter = $(this).data('filter');
     $('.all').hide();
     $('.open').hide();
-    $(filter).show();
-    $('.arrow').show();
+    $(filter).css('display', 'flex');
     $('.filter-list a').removeClass('selected ');
     $(this).addClass('selected');
-    $(this).css("margin-top", "1px");
-    if($(this).hasClass("noarrow")){
-        $('.arrow').hide();
-    }
-    
-    return false
-    
+    $(this).css("margin-top", "1px");  
 })
-
+let isScreenSizeSmall = true;
+$('.contact-box')
+function myFunction(x) {
+    if (x.matches) { // If media query matches
+        $('.filter-list').hide();
+        isScreenSizeSmall = true;
+    } else {
+        $('.filter-list').show();
+        isScreenSizeSmall = false;
+    }
+  }
+  
+  var x = window.matchMedia("(max-width: 850px)")
+  myFunction(x) // Call listener function at run time
+  x.addListener(myFunction) // Attach listener function on state changes
   
     $('.group h2').on('click', function(){
-        if(screen.width < 850){
+        if(isScreenSizeSmall){
             console.log('its small');
             var filterGroup = $(this).data('filter');
             console.log(filterGroup);
@@ -29,17 +35,19 @@ $('.filter-list a').on('click', function(){
             $('.filter-list').show();
         }      
     })
-    function myFunction(x) {
-        if (x.matches) { // If media query matches
-            $('.filter-list').hide();
-        } else {
-            $('.filter-list').show();
-        }
-      }
-      
-      var x = window.matchMedia("(max-width: 850px)")
-      myFunction(x) // Call listener function at run time
-      x.addListener(myFunction) // Attach listener function on state changes
+
+    
+    $('.condensed-about h2').on('click', function() {
+        const filter = $(this).data('filter')
+        $('.all').hide();
+        $('.open').hide();
+        $(filter).css('display', 'flex');
+        $('.arrow').hide();
+        $('.filter-list a').removeClass('selected ');
+        $(this).addClass('selected');
+        $(this).css("margin-top", "1px");        
+    })
+
 
 
 
