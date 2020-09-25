@@ -6,6 +6,8 @@ $('.filter-list a').on('click', function(){
     $('.filter-list a').removeClass('selected ');
     $(this).addClass('selected');
     $(this).css("margin-top", "1px");  
+
+    return false;
 })
 let isScreenSizeSmall = true;
 $('.contact-box')
@@ -33,6 +35,8 @@ function myFunction(x) {
         }else{
             console.log('its big');
             $('.filter-list').show();
+        
+        return false;
         }      
     })
 
@@ -45,7 +49,9 @@ function myFunction(x) {
         $('.arrow').hide();
         $('.filter-list a').removeClass('selected ');
         $(this).addClass('selected');
-        $(this).css("margin-top", "1px");        
+        $(this).css("margin-top", "1px");      
+        
+        return false;
     })
 
 

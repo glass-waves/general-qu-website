@@ -144,6 +144,51 @@ h2.about-selector {
 .multiSize {
     min-height: 400px;
 }
+.squareBox {
+    min-height: 600px;
+}
+.seekBox {
+    min-height: 328px;
+}
+.newBox {
+    min-height: 750px;
+}
+.potBox {
+    min-height: 450px;
+}
+.superBox {
+    min-height: 349px;
+}
+.designBox {
+    min-height: 399px;
+}
+.dreamBox {
+    min-height: 791px;
+}
+.kikaBox {
+    min-height: 900px;
+}
+.lemonBox {
+    min-height: 733px;
+}
+.seaBox {
+    min-height: 339px;
+}
+.ericBox {
+    min-height: 456px;
+}
+.alisonBox {
+    min-height: 338px;
+}
+.blackBox {
+    min-height: 347px;
+}
+.jamBox {
+    min-height: 527px;
+}
+.parkBox {
+    min-height: 733px;
+}
 .caption {
     padding: 15px;
     padding-left: 25px;
