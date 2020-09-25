@@ -537,7 +537,8 @@ ul p {
     }
     .column-2 {
         width: 45%;
-        position:fixed;
+        position:absolute;
+        overflow-y: auto;
         top:0;
         right:0;
         height:100%;
