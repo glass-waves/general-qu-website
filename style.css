@@ -595,7 +595,7 @@ ul p {
         padding: 16px;
         padding-top: 20px;
     }
-@media(max-width: 900px) and (min-height:900px ) {
+@media(max-width: 900px) and (min-height:700px ) {
     .gallery {
         padding-bottom: 40%;
     }
