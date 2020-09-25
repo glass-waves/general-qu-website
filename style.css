@@ -517,6 +517,9 @@ ul p {
         margin-bottom: 4px;
         font-size: 14px;
     }
+    .gallery {
+        border-bottom: solid 1px black;
+    }
 }
 
 @media (max-width: 780px) {
