@@ -884,3 +884,64 @@ ul p {
         display: block;
     }
 }
+
+@media(min-width: 1400px) {
+    .outer-grid-container {
+        grid-template-columns: 75% 25%;
+    }
+    .cycle-slideshow {
+        width: 720px;
+    }
+    .multiSize {
+        min-height: 480px;
+    }
+    .squareBox {
+        min-height: 720px;
+    }
+    .seekBox {
+        min-height: 394px;
+    }
+    .newBox {
+        min-height: 900px;
+    }
+    .potBox {
+        min-height: 540px;
+    }
+    .superBox {
+        min-height: 418px;
+    }
+    .designBox {
+        min-height: 479px;
+    }
+    .dreamBox {
+        min-height: 949px;
+    }
+    .kikaBox {
+        min-height: 1080px;
+    }
+    .bbBox {
+        min-height: 394px;
+    }
+    .lemonBox {
+        min-height: 880px;
+    }
+    .seaBox {
+        min-height: 408px;
+    }
+    .ericBox {
+        min-height: 548px;
+    }
+    .alisonBox {
+        min-height: 406px;
+    }
+    .blackBox {
+        min-height: 417px;
+    }
+    .jamBox {
+        min-height: 633px;
+    }
+    .parkBox {
+        min-height: 880px;
+    }
+
+}
