@@ -551,7 +551,7 @@ ul p {
         transition: transform 0.5s ease;
     }
     .outer-grid-container{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .slide {
         transform: translateX(0);
