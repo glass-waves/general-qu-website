@@ -63,6 +63,12 @@ header p {
 .qu {
     margin-bottom:18px;
     margin-right:40px;
+    transition: transform 1s linear;
+    transform-origin: bottom left;
+    transform-style: preserve-3D;
+}
+.qu:hover{
+    transform: rotate(25deg);
 }
 .link-list h1 {
     margin-top: 20px;
@@ -347,6 +353,57 @@ ul p {
     .center {
         margin-right: 5px;
     }
+    .cycle-slideshow {
+        width: 500px;
+    }
+    .multiSize {
+        min-height: 333px;
+    }
+    .squareBox {
+        min-height: 500px;
+    }
+    .seekBox {
+        min-height: 273px;
+    }
+    .newBox {
+        min-height: 625px;
+    }
+    .potBox {
+        min-height: 375px;
+    }
+    .superBox {
+        min-height: 290px;
+    }
+    .designBox {
+        min-height: 332px;
+    }
+    .dreamBox {
+        min-height: 659px;
+    }
+    .kikaBox {
+        min-height: 750px;
+    }
+    .lemonBox {
+        min-height: 610px;
+    }
+    .seaBox {
+        min-height: 283px;
+    }
+    .ericBox {
+        min-height: 380px;
+    }
+    .alisonBox {
+        min-height: 281px;
+    }
+    .blackBox {
+        min-height: 289px;
+    }
+    .jamBox {
+        min-height: 439px;
+    }
+    .parkBox {
+        min-height: 610px;
+    }
 }
 
 @media (max-width: 1080px) {
@@ -377,6 +434,58 @@ ul p {
     .center a{
         font-size:14px;
     }
+    .cycle-slideshow {
+        width: 400px;
+    }
+    .multiSize {
+        min-height: 266px;
+    }
+    .squareBox {
+        min-height: 400px;
+    }
+    .seekBox {
+        min-height: 218px;
+    }
+    .newBox {
+        min-height: 500px;
+    }
+    .potBox {
+        min-height: 300px;
+    }
+    .superBox {
+        min-height: 232px;
+    }
+    .designBox {
+        min-height: 266px;
+    }
+    .dreamBox {
+        min-height: 527px;
+    }
+    .kikaBox {
+        min-height: 600px;
+    }
+    .lemonBox {
+        min-height: 488px;
+    }
+    .seaBox {
+        min-height: 226px;
+    }
+    .ericBox {
+        min-height: 304px;
+    }
+    .alisonBox {
+        min-height: 225px;
+    }
+    .blackBox {
+        min-height: 231px;
+    }
+    .jamBox {
+        min-height: 351px;
+    }
+    .parkBox {
+        min-height: 488px;
+    }
+
 }
 
 @media (max-width: 850px) {
@@ -393,7 +502,7 @@ ul p {
         display:none;
     }
     .arrow img {
-        max-width: 40px;
+        max-width: 50px;
     }
     .group h2 {
         max-width:200px;
@@ -514,6 +623,65 @@ ul p {
         padding-bottom: 30%;
     }
 }
+@media (max-width: 540px) {
+    .caption ul {
+        font-size: 14px;
+    }
+    .cycle-slideshow {
+        width: 300px;
+    }
+    .multiSize {
+        min-height: 200px;
+    }
+    .squareBox {
+        min-height: 300px;
+    }
+    .seekBox {
+        min-height: 164px;
+    }
+    .newBox {
+        min-height: 375px;
+    }
+    .potBox {
+        min-height: 225px;
+    }
+    .superBox {
+        min-height: 174px;
+    }
+    .designBox {
+        min-height: 199px;
+    }
+    .dreamBox {
+        min-height: 396px;
+    }
+    .kikaBox {
+        min-height: 450px;
+    }
+    .lemonBox {
+        min-height: 366px;
+    }
+    .seaBox {
+        min-height: 169px;
+    }
+    .ericBox {
+        min-height: 228px;
+    }
+    .alisonBox {
+        min-height: 169px;
+    }
+    .blackBox {
+        min-height: 173px;
+    }
+    .jamBox {
+        min-height: 263px;
+    }
+    .parkBox {
+        min-height: 366px;
+    }
+    .arrow img {
+        max-width: 40px;
+    }
+}
 @media (max-width: 480px){
     .qu{
         right:32%;
@@ -550,6 +718,60 @@ ul p {
         line-height:1.2;
     }
 }
+@media(max-width: 420px){
+    .cycle-slideshow {
+        width: 250px;
+    }
+    .multiSize {
+        min-height: 166px;
+    }
+    .squareBox {
+        min-height: 250px;
+    }
+    .seekBox {
+        min-height: 136px;
+    }
+    .newBox {
+        min-height: 313px;
+    }
+    .potBox {
+        min-height: 188px;
+    }
+    .superBox {
+        min-height: 145px;
+    }
+    .designBox {
+        min-height: 166px;
+    }
+    .dreamBox {
+        min-height: 330px;
+    }
+    .kikaBox {
+        min-height: 375px;
+    }
+    .lemonBox {
+        min-height: 305px;
+    }
+    .seaBox {
+        min-height: 142px;
+    }
+    .ericBox {
+        min-height: 190px;
+    }
+    .alisonBox {
+        min-height: 141px;
+    }
+    .blackBox {
+        min-height: 145px;
+    }
+    .jamBox {
+        min-height: 220px;
+    }
+    .parkBox {
+        min-height: 305px;
+    }
+
+}
 @media(max-width: 400px){
     .qu{
         right:30%;
@@ -566,6 +788,57 @@ ul p {
 @media(max-width:370px){
     .link-list h1 {
         font-size:20px;
+    }
+    .cycle-slideshow {
+        width: 200px;
+    }
+    .multiSize {
+        min-height: 133px;
+    }
+    .squareBox {
+        min-height: 200px;
+    }
+    .seekBox {
+        min-height: 109px;
+    }
+    .newBox {
+        min-height: 250px;
+    }
+    .potBox {
+        min-height: 150px;
+    }
+    .superBox {
+        min-height: 116px;
+    }
+    .designBox {
+        min-height: 133px;
+    }
+    .dreamBox {
+        min-height: 264px;
+    }
+    .kikaBox {
+        min-height: 300px;
+    }
+    .lemonBox {
+        min-height: 244px;
+    }
+    .seaBox {
+        min-height: 113px;
+    }
+    .ericBox {
+        min-height: 152px;
+    }
+    .alisonBox {
+        min-height: 113px;
+    }
+    .blackBox {
+        min-height: 116px;
+    }
+    .jamBox {
+        min-height: 176px;
+    }
+    .parkBox {
+        min-height: 244px;
     }
 }
 @media(max-width:340px){
