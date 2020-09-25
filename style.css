@@ -175,6 +175,9 @@ h2.about-selector {
 .kikaBox {
     min-height: 900px;
 }
+.bbBox {
+    min-height: 328px;
+}
 .lemonBox {
     min-height: 733px;
 }
@@ -384,6 +387,9 @@ ul p {
     .kikaBox {
         min-height: 750px;
     }
+    .bbBox {
+        min-height: 273px;
+    }
     .lemonBox {
         min-height: 610px;
     }
@@ -464,6 +470,9 @@ ul p {
     }
     .kikaBox {
         min-height: 600px;
+    }
+    .bbBox {
+        min-height: 219px;
     }
     .lemonBox {
         min-height: 488px;
@@ -665,6 +674,9 @@ ul p {
     .kikaBox {
         min-height: 450px;
     }
+    .bbBox {
+        min-height: 164px;
+    }
     .lemonBox {
         min-height: 366px;
     }
@@ -757,6 +769,9 @@ ul p {
     .kikaBox {
         min-height: 375px;
     }
+    .bbBox {
+        min-height: 137px;
+    }
     .lemonBox {
         min-height: 305px;
     }
@@ -826,6 +841,9 @@ ul p {
     }
     .kikaBox {
         min-height: 300px;
+    }
+    .bbBox {
+        min-height: 109px;
     }
     .lemonBox {
         min-height: 244px;
