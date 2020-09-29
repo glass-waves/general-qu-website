@@ -344,6 +344,15 @@ ul p {
     list-style-type: square;
     list-style-position: inside;
 }
+.wet-dream li {
+    font-size: 20px;
+}
+.about a:visited {
+    color: blue;
+}
+.caption a:visited {
+    color: blue;
+}
 @media (max-width: 1150px) {
     .about {
         grid-template-columns: 20% 35% 1fr;
